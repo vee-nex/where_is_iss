@@ -16,12 +16,14 @@
  * 
  */
 
+
+#ifndef APIHANDLER_H
+#define APIHANDLER_H
+
 #include <stdlib.h>
 #include <time.h>
 #include <curl/curl.h>
 
-#ifndef APIHANDLER_H
-#define APIHANDLER_H
 typedef struct
 {
 	char *data;
