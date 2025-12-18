@@ -38,7 +38,7 @@ static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, voi
 	
 	required_size = buff->size + realsize + 1;
 
-	if (new_capacity<required_size)
+	if (buff->capacity < required_size)
 	{
 		new_capacity=buff->capacity*2;
 
